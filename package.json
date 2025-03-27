@@ -1,0 +1,32 @@
+{
+  "name": "gestion-turnos-padel",
+  "version": "1.0.0",
+  "description": "Una aplicación dedicada a la autogestión de turnos de canchas de padel.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EnzoMagurno/Gesti-n-de-Turnos-de-Padel.git"
+  },
+  "author": "EnzoMagurno",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EnzoMagurno/Gesti-n-de-Turnos-de-Padel/issues"
+  },
+  "homepage": "https://github.com/EnzoMagurno/Gesti-n-de-Turnos-de-Padel#readme",
+  "dependencies": {
+    "axios": "^1.8.4",
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "pg": "^8.14.1",
+    "sequelize": "^6.37.6"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
